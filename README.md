@@ -1,6 +1,6 @@
 # Full-Stack blog project (React + Flask)
 
-<img src="./public/logo.png" />
+<img src="./public/logo.png" width="150px" height="150px" />
 
 A fully functional full-stack blog project used to develop the skills of both front-end and back-end development in team members, We're using a simple stack to achieve the simplest structure and hone our skills in the field of web development.
 
