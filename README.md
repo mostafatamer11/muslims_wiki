@@ -8,7 +8,7 @@ A fully functional full-stack blog project used to develop the skills of both fr
 
 ## Technologies used:
 
-1. <img src="https://img.icons8.com/color/javascript.png" /> JavaScript
+1. <img src="https://img.icons8.com/color/javascript.png" width='40px', height='40px' /> JavaScript
 2. <img src="https://icons8.com/icon/13441/python" /> Python
 3. <img src="https://icons8.com/icon/QBqFNfPPB2Kx/sass" /> SASS
 4. <img src="https://icons8.com/icon/TtXEs5SeYLG8/flask" /> Flask
