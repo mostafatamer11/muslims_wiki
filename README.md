@@ -2,7 +2,7 @@
 
 <img src="./public/logo.png" width="150px" height="150px" />
 
-A fully functional full-stack blog project used to develop the skills of both front-end and back-end development in team members, We're using a simple stack to achieve the simplest structure and hone our skills in the field of web development.
+We're building a blog project using basic technologies to achieve minimum complexity in the code process and to focus on the basics of project design, you could consider the project a clone of Facebook, Twitter, Instagram, and other projects
 
 **Project Name:** Zikr Bits
 
@@ -22,6 +22,11 @@ A fully functional full-stack blog project used to develop the skills of both fr
 3. Discord
 4. Zoom
 5. Google Drive
+
+## Functionalities
+
+1. Login System
+2. CRUD Posts
 
 ## Project Setup
 
