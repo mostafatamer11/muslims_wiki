@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# python rubish (venv and __pycache__)
+__pycache__
+.venv
+*/__pycache__
+
