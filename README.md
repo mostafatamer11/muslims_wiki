@@ -8,20 +8,20 @@ A fully functional full-stack blog project used to develop the skills of both fr
 
 ## Technologies used:
 
-1. <img src="https://img.icons8.com/color/javascript.png" width='28px' height='28px' /> JavaScript
-2. <img src="https://img.icons8.com/color/python.png" width="28px" height="28px" /> Python
-3. <img src="https://img.icons8.com/color/sass.png" width="28px" height="28px" /> SASS
-4. <img src="https://img.icons8.com/color/flask.png" width="28px" height="28px" /> Flask
-5. <img src="https://img.icons8.com/color/react.png" width="28px" height="28px" /> React
-7. <img src="https://img.icons8.com/color/tailwind.png" width="28px" height="28px" /> Tailwind
+1. JavaScript
+2. Python
+3. SASS
+4. Flask
+5. React
+7. Tailwind
 
 ## Collaborative Tools
 
-1. <img src="https://icons8.com/icon/12599/github" /> GitHub
-2. <img src="https://icons8.com/icon/zfHRZ6i1Wg0U/figma" /> Figma (For Design)
-3. <img src="https://icons8.com/icon/30888/discord" /> Discord
-4. <img src="https://icons8.com/icon/30888/discord" /> Zoom
-5. <img src="https://icons8.com/icon/7csVZvHoQrLW/zoom" /> Google Drive
+1. GitHub
+2. Figma (For Design)
+3. Discord
+4. Zoom
+5. Google Drive
 
 ## Project Setup
 
