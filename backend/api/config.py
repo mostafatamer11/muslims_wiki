@@ -9,12 +9,13 @@ app = Flask(__name__)
 CORS(app)
 
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///zikr_bits/backend/api/data/users.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
 
 app.config["SQLALCHEMY_BINDS"] = {
-    "blogs": "sqlite:///zikr_bits/backend/api/data/blogs.db",
+    "blogs": "sqlite:///blogs.db",
 }
 
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
+

@@ -1,4 +1,4 @@
-from .config import db
+from .config import db, app, jsonify
 
 
 class User(db.Model):
@@ -12,7 +12,6 @@ class User(db.Model):
             "username": self.username,
             "email": self.email
         }
-
 
 class Blog(db.Model):
     __bind_key__ = 'blogs'
