@@ -4,7 +4,7 @@ from .models import User
 
 @app.route("/")
 def hello():
-    return ""
+    return jsonify({"message": "Hello, World!"})
 
 @app.route("/create_user", methods=["POST"])
 def create_user():
@@ -25,11 +25,39 @@ def create_user():
 def get_users():
     users = User.query.all()
     users_json = list(map(lambda x: x.to_json(), users))
-    print(users_json)
-    return {"users": [users_json]}, 200
+    return jsonify({"users": [users_json]}), 200
+
+
+@app.route("/user/<int:id>", methods=["GET"])
+def get_user(id):
+    user = User.query.filter_by(id=id).first()
+    if user:
+        return jsonify({"user": user.to_json()}), 200
+    else:
+        return jsonify({"message": "User not found!"}), 404
+
+
+@app.route("/remove_user/<int:id>", methods=["DELETE"])
+def remove_user(id):
+    user = User.query.filter_by(id=id).first()
+    if user:
+        db.session.delete(user)
+        db.session.commit()
+
+
+@app.route("/update_user", methods=["PUT"])
+def update_user():
+    id = request.json.get("id")
+    username = request.json.get("username")
+    email = request.json.get("email")
+
+    user = User.query.filter_by(id=id).first()
+    user.username = username
+    user.email = email
+
 
 def run():
     with app.app_context():
         db.create_all()
 
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

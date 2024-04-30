@@ -76,5 +76,5 @@ We're building a blog project using basic technologies to achieve minimum comple
 
 - [ ] Ship the App to production
 - [ ] Minimize all the work done
-- [ ] Add a README.md
+- [x] Add a README.md
 - [ ] Add a LICENSE.md
