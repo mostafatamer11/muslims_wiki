@@ -24,7 +24,8 @@ def create_user():
         a json with the following keys:
             - message
     """
-    id = request.json.get("id")
+    id = User.generate_id()
+    print(id)
     username = request.json.get("username")
     email = request.json.get("email")
 
