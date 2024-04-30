@@ -59,7 +59,7 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [ ] Integrate API into the App
 
 ## Backend
-####  __<a href=".\backend\BACKEND.md">Documentation</a>__
+####  <a href=".\backend\BACKEND.md">Documentation</a>
 
 - [ ] Create the API needed for the Project
 - [ ] Test the API
