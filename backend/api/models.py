@@ -22,7 +22,7 @@ class User(db.Model):
             ids = [result.id for result in User.query.with_entities(User.id).all()]
 
         seed = secrets.randbelow(1000)
-        t = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        t = datetime.now().strftime("%Y-%H:%m-%M:%d-%S")
 
         h = hashlib.sha256()
         h.update(f"{seed}{t}".encode("utf-8"))

@@ -52,7 +52,7 @@ def get_users():
     """
     users = User.query.all()
     users_json = list(map(lambda x: x.to_json(), users))
-    return jsonify({"message": "success!", "users": [users_json]}), 200
+    return jsonify({"message": "success!", "users": users_json}), 200
 
 
 @app.route("/user/<int:id>", methods=["GET"])
