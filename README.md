@@ -39,9 +39,9 @@ We're building a blog project using basic technologies to achieve minimum comple
 
 ## Design
 
-- [ ] Open a project on Figma
+- [x] Open a project on Figma
 - [ ] Collect Assets
-- [ ] Make a mockup design on Figma
+- [x] Make a mockup design on Figma
 - [ ] Choose a color palette
 - [ ] Choose Font set
 - [ ] Add all elements together
