@@ -13,11 +13,11 @@
 - [x] Profile page
 - [x] Notifications
 
-## Content Creation and Interation
+## Content Creation and Interaction
 
-- [ ] Create Post
-- [ ] Comment
-- [ ] Like & Shares
+- [x] Create Post
+- [x] Comment
+- [x] Like & Shares
 
 ## Additional Pages
 
