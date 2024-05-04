@@ -7,14 +7,14 @@ def hello():
     """
     A simple hello world endpoint
     """
-    return jsonify({"message": "Hello, World!"})
+    return jsonify({"message": "Hello, World!", "user": "ahmed900wael"})
 
 
 @app.route("/create_user", methods=["POST"])
 def create_user():
     """
     create user endpoint
-    :parameters: 
+    :parameters:
         a json with the following keys:
             - id
             - username

@@ -1,4 +1,4 @@
 flask
 requests
-Flask-SQLAlchemy
+flask_sqlalchemy
 flask-cors
