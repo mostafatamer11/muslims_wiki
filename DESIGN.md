@@ -21,6 +21,5 @@
 
 ## Additional Pages
 
-- [ ] About
-- [ ] Contact
-- [ ] Privacy Policy & Terms of Use
+- [x] About
+- [x] Contact
