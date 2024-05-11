@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *,
 *::before,
 *::after {
@@ -11,5 +15,18 @@ html {
 }
 
 body {
-  font-family: "DM Serif Display", serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container, nav {
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  .container, nav {
+    width: min(92vw, 120rem);
+    text-align: start;
+  }
 }
