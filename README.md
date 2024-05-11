@@ -42,9 +42,9 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [x] Open a project on Figma
 - [ ] Collect Assets
 - [x] Make a mockup design on Figma
-- [ ] Choose a color palette
-- [ ] Choose Font set
-- [ ] Add all elements together
+- [x] Choose a color palette
+- [x] Choose Font set
+- [x] Add all elements together
 
 ## Front End
 
