@@ -1,10 +1,10 @@
-# Full-Stack blog project (React + Flask)
+# Muslim Wiki: A Full-Stack blog project (React + Flask)
 
 <img src="./public/logo.png" width="150px" height="150px" />
 
-We're building a blog project using basic technologies to achieve minimum complexity in the code process and to focus on the basics of project design, you could consider the project a clone of Facebook, Twitter, Instagram, and other projects
+We're building a blog project using basic technologies to achieve minimum complexity in the coding process and to focus on the basics of project design, you could consider the project a clone of Facebook, Twitter, Instagram, and other projects
 
-**Project Name:** Zikr Bits
+**Project Name:** Muslim Wiki
 
 ## Technologies used:
 
