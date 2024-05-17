@@ -4,20 +4,19 @@
 
 - [x] Home
 - [x] Feed
-- [x] Post
 - [x] Search
 - [x] Login/Signup
 
 ## User Profile & Management
 
 - [x] Profile page
-- [x] Notifications
+- [ ] Notifications
 
 ## Content Creation and Interaction
 
-- [x] Create Post
-- [x] Comment
-- [x] Like & Shares
+- [x] Like
+- [ ] Create Post
+- [ ] Comments
 
 ## Additional Pages
 

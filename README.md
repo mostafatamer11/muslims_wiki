@@ -13,7 +13,7 @@ We're building a blog project using basic technologies to achieve minimum comple
 3. SASS
 4. Flask
 5. React
-7. Tailwind
+6. Tailwind
 
 ## Collaborative Tools
 
@@ -26,7 +26,8 @@ We're building a blog project using basic technologies to achieve minimum comple
 ## Functionalities
 
 1. Login System
-2. CRUD Posts
+2. CRUD Posts, Users, Posts, Reactions
+3. Search Posts
 
 ## Project Setup
 
@@ -40,11 +41,11 @@ We're building a blog project using basic technologies to achieve minimum comple
 ## Design
 
 - [x] Open a project on Figma
-- [ ] Collect Assets
 - [x] Make a mockup design on Figma
 - [x] Choose a color palette
 - [x] Choose Font set
 - [x] Add all elements together
+- [ ] Collect Assets
 
 ## Front End
 
@@ -59,7 +60,8 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [ ] Integrate API into the App
 
 ## Backend
-####  <u><a href=".\backend\BACKEND.md">Documentation</a></u>
+
+#### <u><a href=".\backend\BACKEND.md">Documentation</a></u>
 
 - [ ] Create the API needed for the Project
 - [ ] Test the API
@@ -76,6 +78,8 @@ We're building a blog project using basic technologies to achieve minimum comple
 ## Deployment
 
 - [ ] Ship the App to production
-- [ ] Minimize all the work done
+- [ ] Minimize all the work done (Compress)
 - [x] Add a README.md
+- [x] Add DESIGN.md
+- [ ] Add BACKEND.md
 - [ ] Add a LICENSE.md
