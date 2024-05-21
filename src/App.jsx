@@ -1,16 +1,14 @@
 import React from "react";
-import { Outlet, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import {
-  About,
   Home,
   Feed,
   User,
-  Profile,
   Contact,
-  Notifications,
   Search,
-  SignIn,
-  SignUp,
+  Sign,
+  Notifications,
+  UserEdit,
 } from "./pages/";
 import Navbar from "./components/Navbar";
 
@@ -23,15 +21,13 @@ const App = () => {
       {/* App Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/feed" element={<Feed />} />
-        <Route path="/user/:id/edit" element={<User />} />
-        <Route path="/user/:id" element={<Profile />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/sign-up" element={<SignUp />} />
-        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/user/:id" element={<User />} />
+        <Route path="/user/:id/edit" element={<UserEdit />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/sign/:id" element={<Sign />} />
       </Routes>
     </>
   );

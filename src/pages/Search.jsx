@@ -1,11 +1,9 @@
-import React from "react";
-import { useSearchParams } from "react-router-dom";
+import React from 'react'
 
 const Search = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const query = searchParams.get("q");
+  return (
+    <div>Search</div>
+  )
+}
 
-  return <div>Search For: {query}</div>;
-};
-
-export default Search;
+export default Search

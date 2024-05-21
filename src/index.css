@@ -17,16 +17,22 @@ html {
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
   min-height: 100vh;
+  @apply bg-brown-200;
+  color: white;
   margin: 0;
 }
 
-.container, nav {
-  margin-inline: auto;
+.nav-link.active {
+  position: relative;
 }
 
-@media (min-width: 1024px) {
-  .container, nav {
-    width: min(92vw, 120rem);
-    text-align: start;
-  }
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
 }
