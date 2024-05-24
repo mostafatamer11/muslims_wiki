@@ -22,6 +22,10 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .nav-link.active {
   position: relative;
 }
@@ -35,4 +39,33 @@ body {
   border-radius: 50%;
   width: 12px;
   height: 12px;
+}
+
+.layout {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  @apply my-44;
+  width: min(92vw, 75rem);
+}
+
+.layout > * {
+  margin-inline: auto;
+}
+
+.section-img {
+  position: relative;
+}
+
+.section-img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: -4rem;
+  right: -5rem;
+  background-color: inherit;
+  @apply rounded-12;
 }
