@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,6 +24,7 @@ body {
   @apply bg-brown-200;
   color: white;
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -42,12 +47,12 @@ img {
 }
 
 .layout {
-  margin-inline: auto;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  width: min(92vw, 85rem);
+  margin-inline: auto;
+  gap: 16rem;
   @apply my-44;
-  width: min(92vw, 75rem);
 }
 
 .layout > * {
@@ -56,6 +61,8 @@ img {
 
 .section-img {
   position: relative;
+  max-width: 600px;
+  aspect-ratio: 3 / 4;
 }
 
 .section-img::before {
@@ -64,8 +71,14 @@ img {
   height: 100%;
   z-index: -1;
   position: absolute;
-  top: -4rem;
-  right: -5rem;
+  top: -.75rem;
+  right: -.75rem;
   background-color: inherit;
-  @apply rounded-12;
+  @apply rounded-12 lg:top-[-4rem] lg:right-[-5rem];
+}
+
+.section-img:nth-child(2)::before {
+  top: -.75rem;
+  left: -.75rem;
+  @apply bg-yellow-100 lg:top-[4rem] lg:left-[-3rem];
 }

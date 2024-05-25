@@ -49,9 +49,9 @@ We're building a blog project using basic technologies to achieve minimum comple
 
 ## Front End
 
-- [ ] Create a React App
+- [x] Create a React App
 - [ ] Add all components
-- [ ] Add all pages
+- [x] Add all pages
 - [ ] Add all functionalities
 - [ ] Test the API
 - [ ] Add all assets after adjustments
@@ -74,6 +74,19 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [ ] Test accessibility
 - [ ] Test SEO
 - [ ] Test Visibility
+
+for testing the UI (run this command in the root folder):
+
+```bash
+  npm run dev
+```
+
+for testing the backend api (run this command in the backend/ folder):
+
+```bash
+  pip install -r requirements.txt
+  python main.py
+```
 
 ## Deployment
 

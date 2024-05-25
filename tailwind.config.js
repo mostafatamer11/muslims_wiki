@@ -7,6 +7,7 @@ export default {
     },
     colors: {
       white: "#fff",
+      red: "#DD0000",
       black: {
         100: "rgba(0, 0, 0, 0.6)",
         200: "rgba(0, 0, 0, 0.7)",
