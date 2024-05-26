@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Layout from "../../components/Layout";
+import { Layout } from "../../components";
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
           }}
           className="section-img rounded-12 bg-green-100"
         >
-          <img className="w-full h-full rounded-12" src="/images.jpg" alt="" />
+          <img className="w-full h-full rounded-12" src="/muslim2.jpg" alt="" />
         </motion.div>
         <motion.div
           initial={{ x: 150, opacity: 0 }}

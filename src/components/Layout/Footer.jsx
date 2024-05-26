@@ -7,14 +7,9 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import SocialLinks from "./SocialLinks";
 
-const socialLinks = [
-  <FaFacebook size={"40"} />,
-  <FaInstagram size={"40"} />,
-  <FaTwitter size={"40"} />,
-  <FaYoutube size={"40"} />,
-  <FaGoogle size={"40"} />,
-];
+
 
 const footerLinks = [
   { name: "home", route: "/" },
@@ -33,16 +28,7 @@ const Footer = () => {
         transition={{ duration: 1 }}
         className="flex flex-col gap-8 py-12"
       >
-        <ul className="flex justify-center gap-8">
-          {socialLinks.map((icon, id) => (
-            <li
-              key={id}
-              className="text-[#583B00] p-4 bg-brown-200 rounded-12 hover:text-[#583b009e]"
-            >
-              {icon}
-            </li>
-          ))}
-        </ul>
+        <SocialLinks />
         <ul className="flex justify-center gap-12">
           {footerLinks.map(({ name, route }, id) => (
             <li

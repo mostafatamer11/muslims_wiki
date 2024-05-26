@@ -1,11 +1,13 @@
-import MainBackground from "/hero-banner.png";
-import Overlay from "../../components/Overlay";
-import Button from "../../components/Button";
-import Footer from "../../components/Footer";
-
+// Functional Components
 import { motion } from "framer-motion";
-import Section from "./Section";
 import { Link } from "react-router-dom";
+
+// Components
+import { Overlay, Button, Footer } from "../../components"
+import Section from "./Section";
+
+// Assets
+import MainBackground from "/hero-banner.png";
 
 const background = {
   backgroundImage: `url(${MainBackground})`,

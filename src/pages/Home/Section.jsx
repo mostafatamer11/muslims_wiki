@@ -1,6 +1,3 @@
-import React from "react";
-import Layout from "../../components/Layout";
-import { motion } from "framer-motion";
 import CTA from "./CTA";
 import About from "./About";
 import Offers from "./Offers";

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Layout from "../../components/Layout";
+import { Layout } from "../../components";
 
 const Offers = () => {
   return (
@@ -48,7 +48,7 @@ const Offers = () => {
         >
           <img
             className="bg-black-100 w-full h-full rounded-12"
-            src="/63XpIkbEsTqS4 (1).png"
+            src="/muslim.png"
             alt=""
           />
         </motion.div>

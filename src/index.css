@@ -71,14 +71,14 @@ img {
   height: 100%;
   z-index: -1;
   position: absolute;
-  top: -.75rem;
-  right: -.75rem;
+  top: -0.75rem;
+  right: -0.75rem;
   background-color: inherit;
   @apply rounded-12 lg:top-[-4rem] lg:right-[-5rem];
 }
 
 .section-img:nth-child(2)::before {
-  top: -.75rem;
-  left: -.75rem;
+  top: -0.75rem;
+  left: -0.75rem;
   @apply bg-yellow-100 lg:top-[4rem] lg:left-[-3rem];
 }

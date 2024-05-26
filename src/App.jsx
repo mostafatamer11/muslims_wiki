@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import {
   Home,
@@ -10,7 +9,7 @@ import {
   Notifications,
   UserEdit,
 } from "./pages/";
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components/";
 
 const App = () => {
   return (
