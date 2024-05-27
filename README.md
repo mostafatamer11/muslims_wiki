@@ -10,10 +10,9 @@ We're building a blog project using basic technologies to achieve minimum comple
 
 1. JavaScript
 2. Python
-3. SASS
-4. Flask
-5. React
-6. Tailwind
+3. Flask
+4. React
+5. Tailwind
 
 ## Collaborative Tools
 
@@ -28,6 +27,7 @@ We're building a blog project using basic technologies to achieve minimum comple
 1. Login System
 2. CRUD Posts, Users, Posts, Reactions
 3. Search Posts
+4. Pages Routing
 
 ## Project Setup
 
@@ -45,7 +45,7 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [x] Choose a color palette
 - [x] Choose Font set
 - [x] Add all elements together
-- [ ] Collect Assets
+- [x] Collect Assets
 
 ## Front End
 
@@ -55,7 +55,7 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [ ] Add all functionalities
 - [ ] Test the API
 - [ ] Add all assets after adjustments
-- [ ] Add base classes naming system
+- [x] Add base classes naming system
 - [ ] Add Final Touch and Routes
 - [ ] Integrate API into the App
 
@@ -81,7 +81,7 @@ for testing the UI (run this command in the root folder):
   npm run dev
 ```
 
-for testing the backend api (run this command in the backend/ folder):
+for testing the backend API (run this command in the backend/ folder):
 
 ```bash
   pip install -r requirements.txt
@@ -94,5 +94,5 @@ for testing the backend api (run this command in the backend/ folder):
 - [ ] Minimize all the work done (Compress)
 - [x] Add a README.md
 - [x] Add DESIGN.md
-- [ ] Add BACKEND.md
+- [x] Add BACKEND.md
 - [ ] Add a LICENSE.md
