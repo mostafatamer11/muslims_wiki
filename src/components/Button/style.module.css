@@ -11,11 +11,10 @@
   gap: 1rem;
   justify-content: end;
   margin-inline: auto;
-  width: min(600px, 100%);
 }
 
 .yellow {
-  @apply bg-yellow-100;
+  @apply bg-yellow-100 text-black-500;
 }
 
 .yellow-outline {

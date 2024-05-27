@@ -10,6 +10,8 @@ import {
   UserEdit,
 } from "./pages/";
 import { Navbar } from "./components/";
+import SignUp from "./pages/Forms/Up";
+import SignIn from "./pages/Forms/In";
 
 const App = () => {
   return (
@@ -26,7 +28,10 @@ const App = () => {
         <Route path="/user/:id" element={<User />} />
         <Route path="/user/:id/edit" element={<UserEdit />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/sign/:id" element={<Sign />} />
+        <Route path="/sign" element={<Sign />}>
+          <Route path="in" element={<SignIn />} />
+          <Route path="up" element={<SignUp />} />
+        </Route>
       </Routes>
     </>
   );

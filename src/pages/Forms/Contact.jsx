@@ -14,19 +14,21 @@ const Contact = () => {
             <Input
               type="text"
               placeholder="اكتب بريدك الالكتروني هنا"
-              id="name"
+              id="email"
             ></Input>
           </InputGroup>
           <InputGroup>
             <Input
               type="textarea"
               placeholder="اكتب رسالتك هنا"
-              id="name"
+              id="message"
             ></Input>
           </InputGroup>
           <ButtonGroup>
-            <Button type="reset">امسح الكل</Button>
-            <Button type="submit">ارسل</Button>
+            <Button type="reset">
+              امسح الكل
+            </Button>
+            <Button variant="yellow-outline" type="submit">ارسل</Button>
           </ButtonGroup>
         </form>
       </div>
