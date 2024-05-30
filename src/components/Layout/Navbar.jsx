@@ -40,14 +40,17 @@ const Navbar = () => {
   let logoSize = 48;
 
   return (
-    <header className="py-6 fixed top-0 left-0 w-full z-50">
-      <motion.nav
-        animate={{
-          y: [-180, 0, 0],
-        }}
-        transition={{ duration: 1, delay: 1 }}
-        className="flex mx-5 p-5 px-[30px] rounded-[54px] gap-2 bg-white flex-row items-center justify-between "
-      >
+    <motion.header
+      animate={{
+        y: [-180, 0, 0],
+      }}
+      transition={{ duration: 1, delay: 1 }}
+      className="py-6 fixed top-0 left-0 w-full z-50"
+      style={{
+        backgroundColor: "rgba(0, 0, 0, 0.65)",
+      }}
+    >
+      <nav className="flex mx-5 p-5 px-[30px] rounded-[54px] gap-2 bg-white flex-row items-center justify-between ">
         <div className="logo">
           <Link to="/">
             <img
@@ -75,8 +78,8 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      </motion.nav>
-    </header>
+      </nav>
+    </motion.header>
   );
 };
 

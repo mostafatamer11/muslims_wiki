@@ -39,11 +39,12 @@ img {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: red;
   border-radius: 50%;
   width: 12px;
   height: 12px;
+  @apply animate-ping
 }
 
 .layout {

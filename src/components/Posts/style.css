@@ -1,0 +1,110 @@
+.post-author {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1rem;
+}
+
+.post-author > * {
+  display: flex;
+}
+
+.author {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1.625rem;
+}
+
+.author-img {
+  width: 100px;
+  aspect-ratio: 1 / 1;
+  background: #eee;
+  border-radius: 50%;
+}
+
+.author-img.active {
+  position: relative;
+}
+
+.author-img.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: #00c32b;
+  border: 1px solid black;
+}
+
+.author-text {
+  text-align: right;
+}
+
+.post-settings {
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  opacity: 0.6;
+  transition: opacity 300ms;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.timestamp {
+  user-select: none;
+  pointer-events: none;
+}
+
+.post-content {
+  aspect-ratio: 4 / 3;
+  background: #000;
+  border-radius: 8px;
+  margin: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+.post-reactions {
+  position: relative;
+  margin: 1.5rem 1rem 0;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+ul.reactions {
+  display: flex;
+  gap: 1.25rem;
+}
+
+ul.reactions li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-reactions::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
