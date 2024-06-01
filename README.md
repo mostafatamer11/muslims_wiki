@@ -1,19 +1,18 @@
-# Full-Stack blog project (React + Flask)
+# Muslim Wiki: A Full-Stack blog project (React + Flask)
 
 <img src="./public/logo.png" width="150px" height="150px" />
 
-We're building a blog project using basic technologies to achieve minimum complexity in the code process and to focus on the basics of project design, you could consider the project a clone of Facebook, Twitter, Instagram, and other projects
+We're building a blog project using basic technologies to achieve minimum complexity in the coding process and to focus on the basics of project design, you could consider the project a clone of Facebook, Twitter, Instagram, and other projects
 
-**Project Name:** Zikr Bits
+**Project Name:** Muslim Wiki
 
 ## Technologies used:
 
 1. JavaScript
 2. Python
-3. SASS
-4. Flask
-5. React
-7. Tailwind
+3. Flask
+4. React
+5. Tailwind
 
 ## Collaborative Tools
 
@@ -26,7 +25,9 @@ We're building a blog project using basic technologies to achieve minimum comple
 ## Functionalities
 
 1. Login System
-2. CRUD Posts
+2. CRUD Posts, Users, Posts, Reactions
+3. Search Posts
+4. Pages Routing
 
 ## Project Setup
 
@@ -40,26 +41,27 @@ We're building a blog project using basic technologies to achieve minimum comple
 ## Design
 
 - [x] Open a project on Figma
-- [ ] Collect Assets
 - [x] Make a mockup design on Figma
-- [ ] Choose a color palette
-- [ ] Choose Font set
-- [ ] Add all elements together
+- [x] Choose a color palette
+- [x] Choose Font set
+- [x] Add all elements together
+- [x] Collect Assets
 
 ## Front End
 
-- [ ] Create a React App
+- [x] Create a React App
 - [ ] Add all components
-- [ ] Add all pages
+- [x] Add all pages
 - [ ] Add all functionalities
 - [ ] Test the API
 - [ ] Add all assets after adjustments
-- [ ] Add base classes naming system
+- [x] Add base classes naming system
 - [ ] Add Final Touch and Routes
 - [ ] Integrate API into the App
 
 ## Backend
-####  <u><a href=".\backend\BACKEND.md">Documentation</a></u>
+
+#### <u><a href=".\backend\BACKEND.md">Documentation</a></u>
 
 - [ ] Create the API needed for the Project
 - [ ] Test the API
@@ -73,9 +75,24 @@ We're building a blog project using basic technologies to achieve minimum comple
 - [ ] Test SEO
 - [ ] Test Visibility
 
+for testing the UI (run this command in the root folder):
+
+```bash
+  npm run dev
+```
+
+for testing the backend API (run this command in the backend/ folder):
+
+```bash
+  pip install -r requirements.txt
+  python main.py
+```
+
 ## Deployment
 
 - [ ] Ship the App to production
-- [ ] Minimize all the work done
+- [ ] Minimize all the work done (Compress)
 - [x] Add a README.md
+- [x] Add DESIGN.md
+- [x] Add BACKEND.md
 - [ ] Add a LICENSE.md

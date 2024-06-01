@@ -1,0 +1,77 @@
+.contact-form {
+  padding: 2rem;
+}
+
+.contact-info {
+  @apply bg-green-300 max-md:px-4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.contact-form,
+.contact-info {
+  padding-block-start: 12rem;
+  padding-block-end: 5rem;
+  padding-inline: 3rem;
+}
+
+@media (max-width: 768px) {
+  .contact-info,
+  .contact-form {
+    padding-block: 6rem;
+  }
+
+  .contact-form {
+    grid-row: 2;
+  }
+
+  .contact-info {
+    padding-block-start: 12rem;
+    grid-row: 1;
+  }
+}
+
+.contact-info p {
+  margin-top: 2rem;
+}
+
+.form-input {
+  @apply p-6 text-right rounded-8 mx-auto;
+  width: 100%;
+  color: black;
+}
+
+.form-input-textarea {
+  @apply p-6 text-right rounded-8 h-[320px] mx-auto;
+  color: black;
+  resize: none;
+  width: 100%;
+}
+
+/* Sign in/up */
+.toggle-button {
+  font-size: 18px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-block: 0.75rem;
+  width: max(120px, 30vw);
+}
+
+.toggle-button:has(.active) {
+  @apply bg-brown-200;
+  border-bottom: 0;
+}
+
+.sign-form {
+  max-width: 800px;
+  @apply sm:mx-auto mx-5;
+  min-height: max-content;
+  padding: 2rem;
+  padding-block: 4rem;
+  border-radius: 8px;
+  border: 1px solid black;
+}

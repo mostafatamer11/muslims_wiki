@@ -1,39 +1,40 @@
-// import reactLogo from './assets/react.svg'
-import { Suspense } from "react";
-import { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+import {
+  Home,
+  Feed,
+  User,
+  Contact,
+  Search,
+  Sign,
+  Notifications,
+  UserEdit,
+} from "./pages/";
+import { Navbar } from "./components/";
+import SignUp from "./pages/Forms/Up";
+import SignIn from "./pages/Forms/In";
 
-function App() {
-  const [data, setData] = useState(null);
-
-  // Fetch Data from API
-  const fetchData = async () => {
-    try {
-      // Fetch data from API
-      const response = await fetch("http://127.0.0.1:5000");
-      // Parse data from API
-      const data = await response.json();
-      setData(() => data);
-      console.log(data);
-    } catch (err) {
-      console.log(err);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
+const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
-      <Suspense fallback={"Loading..."}>
-        <p>{data ? data['message'] : "Loading..."}</p>
-      </Suspense>
-      <Suspense fallback={"Loading..."}>
-        <p>Your username is: {data ? data['user'] : "Loading..."}</p>
-      </Suspense>
+      {/* Layout */}
+      <Navbar />
+
+      {/* App Routes */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/feed" element={<Feed />} />
+        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/user/:id" element={<User />} />
+        <Route path="/user/:id/edit" element={<UserEdit />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/sign" element={<Sign />}>
+          <Route path="in" element={<SignIn />} />
+          <Route path="up" element={<SignUp />} />
+        </Route>
+      </Routes>
     </>
   );
-}
+};
 
 export default App;
