@@ -2,3 +2,4 @@ flask
 requests
 flask_sqlalchemy
 flask-cors
+uuid

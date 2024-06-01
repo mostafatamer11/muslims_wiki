@@ -7,7 +7,7 @@ def hello():
     """
     A simple hello world endpoint
     """
-    return jsonify({"message": "Hello, World!", "user": "ahmed900wael"})
+    return render_template("index.html")
 
 
 @app.route("/create_user", methods=["POST"])
